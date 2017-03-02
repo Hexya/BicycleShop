@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto|Roboto+Condensed');
+/*a
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+a*/
+:root {
+  --grey:rgb(230,230,230)
+}
+
+body {
+  background-color:var(--grey);
+}
+.header {
+  height: 250px;
+  background-image: url('../img/headBicycle.jpg');
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.menu {
+  width: 100%;
+  border-top: 3.5px solid white;
+  border-bottom: 1.5px solid white;
+  padding-bottom: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.contMenu {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.contMenu li {
+  font-size: 0.9em;
+  margin-right: 6%;
+  font-family: 'Oswald', sans-serif;
+  transition: .2s ease-out;
+}
+.contMenu li:hover{
+  color: rgb(177, 30, 30);
+  transition: .2s ease-out;
+}
+.contMenu li:before {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: ;
+  content: '';
+  width: 0%;
+  height: 2px;
+  transform: translate3d(0,-50%,0);
+  background: rgb(97, 35, 35);
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.contMenu li:hover:before {
+    opacity: 1;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.contMenu li:nth-child(1):hover:before {width: 2.5%;}
+.contMenu li:nth-child(2):hover:before {width: 5%;}
+.contMenu li:nth-child(3):hover:before {width: 8%;}
+.contMenu li:nth-child(4):hover:before {width: 7.8%;}
+.contMenu li:nth-child(5):hover:before {width: 4.5%;}
+.contMenu li:nth-child(6):hover:before {width: 3.7%;}
+.contMenu li:nth-child(7):hover:before {width: 4%;}
+
+.contMenu li:after {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 3%;
+  content: '';
+  width: 1px;
+  height: 10px;
+  transform: translate3d(0,-50%,0);
+  background: rgb(177, 30, 30);
+}
+.contMenu li:nth-last-child(1):after {
+  background: rgb(240,240,240);
+}

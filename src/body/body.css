@@ -1,0 +1,91 @@
+
+.body {
+  height: 2000px;
+  display: flex;
+  justify-content: center;
+}
+/*ACTU LEFT*/
+.bodyCont {
+  width: 80%;
+}
+.firstLine {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.actuBox {
+  height: 360px;
+  width: 40%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.actu {
+  margin-top: -20px;
+  height: 90%;
+  width: 90%;
+  background-image: url('../img/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.actuBox p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 0.9em;
+  margin-left: 5%;
+  margin-top: -5%;
+}
+.actuBox p span {
+  font-family: 'Oswald', sans-serif;
+}
+/*ACTU LEFT END*/
+/*ACTU RIGHT*/
+.productABox {
+  height: 360px;
+  width: 55%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.productActu {
+  height: 160px;
+  width: 96%;
+  border: 8px solid var(--grey);
+  display: flex;
+  align-items: center;
+  font-size: 0.7em;
+}
+.actuImg {
+  height: 140px;
+  width: 40%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-right: 1px solid grey;
+}
+.actuImg1 {background-image: url('../img/wheel1.jpg');}
+.actuImg2 {background-image: url('../img/selle1.jpg');}
+
+.productActu p {
+  height: 140px;
+  width: 50%;
+  margin-left: 40px;
+  overflow: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.productActu p span {
+  color: rgb(177, 30, 30);
+  font-family: 'Oswald', sans-serif;
+}
+/*ACTU RIGHT END*/
+
+/*ARTICLE BOX*/
+
+/*ARTICLE BOX END*/
