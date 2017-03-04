@@ -1,0 +1,17 @@
+
+.footer {
+  margin-top: 0px;
+}
+
+.footText {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: grey;
+}
+.footText span {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}

@@ -1,12 +1,12 @@
-
 .body {
-  height: 2000px;
+  height: auto;
   display: flex;
   justify-content: center;
 }
 /*ACTU LEFT*/
 .bodyCont {
   width: 80%;
+  border-bottom: 2px solid white;
 }
 .firstLine {
   display: flex;
@@ -87,5 +87,81 @@
 /*ACTU RIGHT END*/
 
 /*ARTICLE BOX*/
+.secLine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5%;
+  height: 800px;
+  width: 97%;
+  background-color: var(--grey);
+}
+.secOne {
+  margin: 7px 7px 7px 7px;
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  border: 2px solid var(--grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: .3s;
+}
+.secOne:hover {
+  box-shadow: inset 0 0 0 gold, 0 0 .3em grey;
+  transition: .3s;
+}
+.secOImg {
+  height: 200px;
+  width: 90%;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.secOImg1 {background-image: url('../img/IAM_Cycling_Bike.jpg');}
+.secOImg2 {background-image: url('../img/00bc5a6eaf69047c76308c11da141793.jpg');}
+.secOImg3 {background-image: url('../img/02e7c13d15feea1a6209b2648768d283.jpg');}
+.secOImg4 {background-image: url('../img/19-07-United-Dream-Custom-Design-Canyon-Bicycles-David-Robinson.jpg');}
+.secOImg5 {background-image: url('../img/12534431_1747261878853042_905234856_n.jpg');}
+.secOImg6 {background-image: url('../img/2016_specialized_kerekparok_kiegeszitok_alkatreszek3.jpg');}
+
+.secOImg p{
+  margin-left: 70%;
+  margin-top: 52%;
+  padding-left: 5px;
+  font-size: 1em;
+  background-color: rgba(255,255,255,0.8);
+  color: rgb(184, 24, 24);
+  font-family: 'Oswald', sans-serif;
+}
+.promo {
+  display: flex;
+  justify-content: center;
+  margin-top: -65%;
+  margin-left: -85%;
+  padding: 3px;
+  background-color: rgb(184, 24, 24);
+  color: white;
+  -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  font-size: 0.8em;
+  font-family: 'Oswald', sans-serif;
+}
+.secOText {
+  height: 100px;
+  width: 90%;
+  border-top: 1px solid grey;
+  overflow: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 0.9em;
+  margin-left: 5%;
+  margin-top: -5%;
+}
+.secOText span{
+  font-family: 'Oswald', sans-serif;
+}
 
 /*ARTICLE BOX END*/
